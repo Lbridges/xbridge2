@@ -15,7 +15,7 @@ get_header();
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-        <img class="first-slide" src="wp-content/themes/xbridge/img/vacation-ownership-mountain-pool-slide.png" alt="Vacation Ownership Reflecting Sky">
+        <img class="first-slide" src="<?php echo get_template_directory_uri() . '/img/vacation-ownership-mountain-pool-slide.png'; ?>" alt="Vacation Ownership Reflecting Sky">
         <div class="container">
             <div class="carousel-caption text-left">
             <h1>Vacation Ownership</h1>
@@ -24,7 +24,7 @@ get_header();
         </div>
         </div>
         <div class="carousel-item">
-        <img class="second-slide" src="wp-content/themes/xbridge/img/vacation-ownership-pool-peace-slide.png" alt="Vacation Ownership Relaxation">
+        <img class="second-slide" src="<?php echo get_template_directory_uri() . '/img/vacation-ownership-pool-peace-slide.png'; ?>" alt="Vacation Ownership Relaxation">
         <div class="container">
             <div class="carousel-caption">
             <h1>Adventure Investment</h1>
@@ -33,7 +33,7 @@ get_header();
         </div>
         </div>
         <div class="carousel-item">
-        <img class="third-slide" src="wp-content/themes/xbridge/img/vacation-ownership-scenery-slide.png" alt="Vacation Ownership Mountain Scene">
+        <img class="third-slide" src="<?php echo get_template_directory_uri() . '/img/vacation-ownership-scenery-slide'; ?>" alt="Vacation Ownership Mountain Scene">
         <div class="container">
             <div class="carousel-caption text-right">
             <h1>Discover New Luxury</h1>
@@ -62,27 +62,27 @@ get_header();
         <div class="row">
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="wp-content/themes/xbridge/img/l-logo.png" class="img-fluid" alt="">
+            <img src="<?php echo get_template_directory_uri() . '/img/l-logo.png'; ?>" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="wp-content/themes/xbridge/img/a-logo.png" class="img-fluid" alt="">
+            <img src="<?php echo get_template_directory_uri() . '/img/a-logo.png'; ?>" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="wp-content/themes/xbridge/img/u-logo.png" class="img-fluid" alt="">
+            <img src="<?php echo get_template_directory_uri() . '/img/u-logo.png'; ?>" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="wp-content/themes/xbridge/img/r-logo.png" class="img-fluid" alt="">
+            <img src="<?php echo get_template_directory_uri() . '/img/r-logo.png'; ?>" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="wp-content/themes/xbridge/img/e-logo.png" class="img-fluid" alt="">
+            <img src="<?php echo get_template_directory_uri() . '/img/e-logo.png'; ?>" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="wp-content/themes/xbridge/img/n-logo.png" class="img-fluid" alt="">
+            <img src="<?php echo get_template_directory_uri() . '/img/n-logo.png'; ?>" class="img-fluid" alt="">
           </div>
 
         </div>
