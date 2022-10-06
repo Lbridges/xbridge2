@@ -28,7 +28,7 @@
             
             <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">
                 <div class="container">
-                    <a class="navbar-brand" href="https://github.com/Lbridges/xbridge/tree/master/xbridge">
+                    <a class="navbar-brand" href="https://github.com/Lbridges/xbridge2">
                         <img src="wp-content/themes/xbridge/img/luxury-logo.png" alt="Luxury Logo" />
                     </a>                
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
