@@ -33,7 +33,8 @@ get_header();
         </div>
         </div>
         <div class="carousel-item">
-        <img class="third-slide" src="<?php echo get_template_directory_uri() . '/img/vacation-ownership-scenery-slide'; ?>" alt="Vacation Ownership Mountain Scene">
+        <img class="third-slide" src="<?php echo get_template_directory_uri() . '/img/vacation-ownership-scenery-slide.png
+        '; ?>" alt="Vacation Ownership Mountain Scene">
         <div class="container">
             <div class="carousel-caption text-right">
             <h1>Discover New Luxury</h1>
@@ -101,8 +102,8 @@ get_header();
         <div class="row gx-5 justify-content-center">
             <div class="col-lg-8 col-xl-6">
                 <div class="text-center">
-                    <h2 class="fw-bolder">Hot Properties</h2>
-                    <p class="lead fw-normal text-muted mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque fugit ratione dicta mollitia. Officiis ad.</p>
+                    <h2 class="fw-bolder">Contact Forms</h2>
+                    <p class="lead fw-normal text-muted mb-5">How will we implement these? We have a few options.</p>
                 </div>
             </div>
         </div>
@@ -111,18 +112,9 @@ get_header();
                 <div class="card h-100 shadow border-0">
                     <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/vacation-palm-trees-sunset-orange.png'; ?>" alt="..." />
                     <div class="card-body p-4">
-                        <div class="badge bg-primary bg-gradient rounded-pill mb-2">Florida</div>
-                        <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">Incredible Scenery</h5></a>
-                        <p class="card-text mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
-                        <div class="d-flex align-items-end justify-content-between">
-                            <div class="d-flex align-items-center">
-                                <div class="small">
-                                    <div class="fw-bold">Key West</div>
-                                </div>
-                            </div>
-                        </div>
+                        <div class="badge bg-primary bg-gradient rounded-pill mb-2">Shortcode the Form</div>
+                        <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">Shortcodes</h5></a>
+                        <p class="card-text mb-0">Tried and true. This is a simple method, and a perfect introduction to an easy plugin. The shortcode for the form could be used on a page or a post.</p>
                     </div>
                 </div>
             </div>
@@ -130,18 +122,9 @@ get_header();
                 <div class="card h-100 shadow border-0">
                     <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/rustic-luxury-vacation-home-access.png'; ?>" alt="..." />
                     <div class="card-body p-4">
-                        <div class="badge bg-primary bg-gradient rounded-pill mb-2">South Carolina</div>
-                        <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">Rustic Hideaways</h5></a>
-                        <p class="card-text mb-0">This text is a bit longer to illustrate the adaptive height of each card. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
-                        <div class="d-flex align-items-end justify-content-between">
-                            <div class="d-flex align-items-center">
-                                <div class="small">
-                                    <div class="fw-bold">Charleston</div>
-                                </div>
-                            </div>
-                        </div>
+                        <div class="badge bg-primary bg-gradient rounded-pill mb-2">Child Themes</div>
+                        <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">Child Theme with Contact Page</h5></a>
+                        <p class="card-text mb-0">This method uses the template hierarchy to display a custom template for a specific page. Using a child theme to add a form would require an entire page layout.</p>
                     </div>
                 </div>
             </div>
@@ -149,18 +132,9 @@ get_header();
                 <div class="card h-100 shadow border-0">
                     <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/orange-sunset-skyline-vacation.png'; ?>" alt="..." />
                     <div class="card-body p-4">
-                        <div class="badge bg-primary bg-gradient rounded-pill mb-2">California</div>
-                        <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">City Splendors</h5></a>
-                        <p class="card-text mb-0">Some more quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
-                        <div class="d-flex align-items-end justify-content-between">
-                            <div class="d-flex align-items-center">
-                                <div class="small">
-                                    <div class="fw-bold">San Francisco</div>
-                                </div>
-                            </div>
-                        </div>
+                        <div class="badge bg-primary bg-gradient rounded-pill mb-2">Custom Blocks</div>
+                        <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">Custom Form Block</h5></a>
+                        <p class="card-text mb-0">For this we can use Node to develop the custom block locally with @wordpress/create-block. This creates a plugin that we can use on multiple sites.</p>
                     </div>
                 </div>
             </div>
@@ -168,15 +142,37 @@ get_header();
       </div>
     </section>
 
+
+        <!-- ======= Full Width CTA ======= -->
+    <section id="fw-cta" class="fw-cta section-bg">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-8">
+            <h3>Let's Use a Button to Encourage Interaction.</h3>
+            <h4>We want Contact Information.</h4>
+            <p>If the visitor clicks the button, they will be taken to the contact page, where
+              the primary intent of the page is to capture information about the visitor that we do not already have.</p>
+          </div>
+          <div class="col-4">
+            <a href="#" class="btn btn-lg btn-outline-dk" role="button">Request More Information</a>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Full Width CTA -->
+
       <!-- START THE FEATURETTES -->
     <section class="features">
       <div class="container">
+        <div class="row">
+          <div class="col"><h3>Niched Content</h3></div>
+        </div>
         <hr class="featurette-divider">
 
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+            <h3 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h3>
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <a href="#" class="btn btn-sm btn-outline-dk" role="button">Read More</a>
           </div>
           <div class="col-md-5">
             <img class="featurette-image img-fluid mx-auto" src="<?php echo get_template_directory_uri() . '/img/vacation-ownership-night-palms-slide.png' ?>" alt="Generic placeholder image">
@@ -187,8 +183,9 @@ get_header();
 
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+            <h3 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h3>
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <a href="#" class="btn btn-sm btn-outline-dk" role="button">Learn More</a>
           </div>
           <div class="col-md-5 order-md-1">
             <img class="featurette-image img-fluid mx-auto" src="<?php echo get_template_directory_uri() . '/img/vacation-ownership-pool-peace-slide.png' ?>" alt="Generic placeholder image">
@@ -199,8 +196,9 @@ get_header();
 
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+            <h3 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h3>
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <a href="#" class="btn btn-sm btn-outline-dk" role="button">Explore Further</a>
           </div>
           <div class="col-md-5">
             <img class="featurette-image img-fluid mx-auto" src="<?php echo get_template_directory_uri() . '/img/vacation-ownership-reflecting-sky-slide.png' ?>" alt="Generic placeholder image">
