@@ -7,7 +7,7 @@ get_header();
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
-  <div id="frontCarousel" class="carousel slide" data-ride="carousel">
+  <div id="frontCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
     <ol class="carousel-indicators">
         <li data-target="#frontCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#frontCarousel" data-slide-to="1"></li>
@@ -18,6 +18,7 @@ get_header();
         <img class="first-slide" src="<?php echo get_template_directory_uri() . '/img/vacation-ownership-mountain-pool-slide.png'; ?>" alt="Vacation Ownership Reflecting Sky">
         <div class="container">
             <div class="carousel-caption text-left">
+              <!-- add form here -->
             <h1>Vacation Ownership</h1>
             <p><a class="btn btn-lg btn-outline" href="#" role="button">Level Up Today</a></p>
             </div>
@@ -62,36 +63,21 @@ get_header();
 
         <div class="row">
 
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+          <div class="col-md-6 d-flex align-items-center justify-content-around">
             <img src="<?php echo get_template_directory_uri() . '/img/l-logo.png'; ?>" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
             <img src="<?php echo get_template_directory_uri() . '/img/a-logo.png'; ?>" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
             <img src="<?php echo get_template_directory_uri() . '/img/u-logo.png'; ?>" class="img-fluid" alt="">
           </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+          <div class="col-md-6 d-flex align-items-center justify-content-around">
             <img src="<?php echo get_template_directory_uri() . '/img/r-logo.png'; ?>" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
             <img src="<?php echo get_template_directory_uri() . '/img/e-logo.png'; ?>" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
             <img src="<?php echo get_template_directory_uri() . '/img/n-logo.png'; ?>" class="img-fluid" alt="">
-          </div>
+          </div> 
 
         </div>
 
       </div>
-    </section><!-- End Logo Section -->
-
-   
+    </section><!-- End Logo Section -->  
 
 
     <!-- Marketing messaging and featurettes
@@ -147,14 +133,16 @@ get_header();
     <section id="fw-cta" class="fw-cta section-bg">
       <div class="container">
         <div class="row d-flex align-items-center">
-          <div class="col-8">
-            <h3>Let's Use a Button to Encourage Interaction.</h3>
-            <h4>We want Contact Information.</h4>
+          <div class="col-md-8">
+            
+            <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/img/orange-sunset-skyline-vacation.png'; ?>" alt="Small Image Impact" width="700" height="300"/>            
+            
+          </div>
+          <div class="col-md-4">
+          <h4>We Want Contact Information.</h4>
             <p>If the visitor clicks the button, they will be taken to the contact page, where
               the primary intent of the page is to capture information about the visitor that we do not already have.</p>
-          </div>
-          <div class="col-4">
-            <a href="#" class="btn btn-lg btn-outline-dk" role="button">Request More Information</a>
+            <a href="#" class="btn btn-lg btn-outline-cta" role="button">Request More Information</a>
           </div>
         </div>
       </div>
