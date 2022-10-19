@@ -12,7 +12,7 @@ License URI: LICENSE
 Text Domain: xbridge
 Tags: Custom Theme, Bootstrap, jQuery UI
 
-This theme, like WordPress, is licensed under the GPL
+This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned.
 
 xbridge is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
@@ -83,10 +83,18 @@ body {
 
 
 /* Custom Styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 /* BTNS */
 a.btn-outline {
-	padding: 12px 16px;
+	padding: 8px 12px;
 	border-radius: 0px;
 	border: 2px solid #efefef;
 	color: #efefef;
@@ -94,15 +102,26 @@ a.btn-outline {
 	background-color: rgba( 0, 0, 0, .24);
 }
 
-a.btn-outline-dk {
-	padding: 12px 16px;
-	border-radius: 4px;
-	border: 1px solid #D19D00;
+a.btn-outline-dk,
+a.btn-outline-cta {
+	padding: 8px 16px;
+	border-radius: 0;
+	border: 1px solid #ccc;
 	color: #555;
-	font-size: 22px;
-	background-color: rgba(255,191,0,0.24);
+	font-size: 16px;
+	background-color: #efefef;;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+a.btn-outline-cta {
+	padding: 12px 32px;
+	background-color: #d97037;
+	color: #fff;
+	font-weight: 600;
+	font-size: 20px;
+}
+a.btn-outline-cta:hover {
+	color: #fff;
 }
 a.btn-outline-dk:hover {
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
@@ -189,10 +208,32 @@ a.navbar-brand {
 	.carousel {
 		margin-top: 24px;
 	} 
+	.carousel-indicators {
+		display: flex;
+	}
+	
 }
 
 @media (max-width: 768px) { 
-	
+	.logo-banner img {
+		margin-bottom: 32px;
+	}
+	.carousel-caption h1 {
+		font-size: 36px;
+	}
+	.carousel-item:after {
+		content:"";
+		display:block;
+		position:absolute;
+		top:0;
+		bottom:0;
+		left:0;
+		right:0;
+		background:rgba(0,0,0,0.3);
+	  }
+	  .carousel-indicators {
+		display: none;
+	  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -249,6 +290,14 @@ section.properties {
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size: 20px;
 }
+
+/* FW CTA */
+.fw-cta h3 {
+	margin-bottom:  16px;
+}
+
+
+/* FEATURETTE  */
 
 section.features {
 	padding: 32px 0;
